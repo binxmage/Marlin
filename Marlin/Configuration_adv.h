@@ -191,7 +191,7 @@
  */
 #if ENABLED(THERMAL_PROTECTION_BED)
   #define THERMAL_PROTECTION_BED_PERIOD        20 // Seconds
-  #define THERMAL_PROTECTION_BED_HYSTERESIS     4 // Degrees Celsius binx changed from 2
+  #define THERMAL_PROTECTION_BED_HYSTERESIS     6 // Degrees Celsius binx changed from 2
 
   /**
    * As described above, except for the bed (M140/M190/M303).
